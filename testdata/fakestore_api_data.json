@@ -1,0 +1,65 @@
+{
+    "product": {
+        "title": "Playwright API Test Product",
+        "price": 19.99,
+        "description": "A deterministic product payload for FakeStore API tests.",
+        "image": "https://i.pravatar.cc",
+        "category": "electronics"
+    },
+    "updatedProduct": {
+        "title": "Updated Playwright API Test Product",
+        "price": 29.99,
+        "description": "An updated deterministic product payload for FakeStore API tests.",
+        "image": "https://i.pravatar.cc",
+        "category": "electronics"
+    },
+    "user": {
+        "email": "playwright-api-user@example.com",
+        "username": "playwright_api_user",
+        "password": "playwright-api-password",
+        "name": {
+            "firstname": "Playwright",
+            "lastname": "Api"
+        },
+        "address": {
+            "city": "Test City",
+            "street": "Test Street",
+            "number": 123,
+            "zipcode": "12345",
+            "geolocation": {
+                "lat": "0",
+                "long": "0"
+            }
+        },
+        "phone": "555-0100"
+    },
+    "updatedUser": {
+        "email": "playwright-api-user-updated@example.com",
+        "username": "playwright_api_user_updated",
+        "password": "playwright-api-password-updated",
+        "name": {
+            "firstname": "Updated",
+            "lastname": "Playwright"
+        },
+        "address": {
+            "city": "Updated Test City",
+            "street": "Updated Test Street",
+            "number": 456,
+            "zipcode": "54321",
+            "geolocation": {
+                "lat": "1",
+                "long": "1"
+            }
+        },
+        "phone": "555-0101"
+    },
+    "cart": {
+        "date": "2020-03-02",
+        "products": [
+            {
+                "productId": 1,
+                "quantity": 1
+            }
+        ]
+    }
+}
